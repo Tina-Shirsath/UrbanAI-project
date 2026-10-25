@@ -1,0 +1,61 @@
+# Root .gitignore for UrbanAI repository
+
+# Environment files and credentials
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Citizen-uploaded incident images
+UrbanAI-Backend/uploads/*
+!UrbanAI-Backend/uploads/.gitkeep
+
+# Frontend build outputs
+UrbanAI-Frontend/dist/
+UrbanAI-Frontend/dist-ssr/
+
+# Raw training datasets (~10.09 GB)
+UrbanAI/road_damage_model/dataset/
+UrbanAI/road_damage_model/dataset_dev/
+UrbanAI/road_damage_model/dataset_small/
+
+# Training and validation artifacts
+UrbanAI/road_damage_model/runs/detect/train*/
+UrbanAI/road_damage_model/runs/detect/val/
+UrbanAI/road_damage_model/runs/detect/runs/detect/road_damage_v1/
+UrbanAI/road_damage_model/runs/detect/runs/detect/road_damage_v1-2/
+UrbanAI/road_damage_model/runs/detect/runs/detect/road_damage_test_v2/
+UrbanAI/road_damage_model/runs/detect/runs/detect/urbanai_final_test/
+
+# Preserve the active YOLO model weights, ignore its other generated artifacts
+UrbanAI/road_damage_model/runs/detect/runs/detect/road_damage_test_v2-2/*
+!UrbanAI/road_damage_model/runs/detect/runs/detect/road_damage_test_v2-2/weights/
+UrbanAI/road_damage_model/runs/detect/runs/detect/road_damage_test_v2-2/weights/*
+!UrbanAI/road_damage_model/runs/detect/runs/detect/road_damage_test_v2-2/weights/best.pt
+!UrbanAI/road_damage_model/runs/detect/runs/detect/road_damage_test_v2-2/weights/last.pt
+
+# Generated inference test images
+UrbanAI/runs/
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS and Editor metadata
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/

@@ -1,0 +1,11 @@
+path: C:/Users/acer/Desktop/UrbanAI/road_damage_model/dataset
+
+train: images/train
+val: images/val
+
+names:
+  0: D00_Longitudinal_Crack
+  1: D10_Transverse_Crack
+  2: D20_Alligator_Crack
+  3: D40_Pothole
+  4: Repair

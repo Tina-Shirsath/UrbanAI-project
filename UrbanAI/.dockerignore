@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+*.env
+
+# Notebooks and development scratchpad
+notebooks/
+
+# Streamlit legacy app
+app/urbanai.db
+app/uploads/
+
+# Raw training datasets and dev datasets (~10 GB)
+road_damage_model/dataset/
+road_damage_model/dataset_dev/
+road_damage_model/dataset_small/
+
+# Training runs other than the active model run
+road_damage_model/runs/detect/runs/detect/road_damage_v1/
+road_damage_model/runs/detect/runs/detect/road_damage_v1-2/
+road_damage_model/runs/detect/runs/detect/road_damage_test_v2/
+road_damage_model/runs/detect/runs/detect/urbanai_final_test/
+
+# Git and OS metadata
+.git/
+.gitignore
+.DS_Store
+Thumbs.db

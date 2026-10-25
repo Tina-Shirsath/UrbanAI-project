@@ -1,0 +1,41 @@
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Local databases and uploads
+app/urbanai.db
+app/uploads/
+uploads/
+
+# Training datasets
+road_damage_model/dataset/
+road_damage_model/dataset_dev/
+road_damage_model/dataset_small/
+
+# Exclude large AI model files
+*.pt
+*.pth
+*.onnx
+*.pkl
+
+# Exclude generated training outputs
+runs/
+road_damage_model/runs/
+
+# Editor and operating system files
+notebooks/
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Local AI test image
+ai_api/test.jpg

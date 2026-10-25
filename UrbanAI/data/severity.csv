@@ -1,0 +1,19 @@
+text,severity
+"Small pothole near the park",low
+"Minor pothole on the road",low
+"Small road crack near the house",low
+"Garbage bin is slightly overflowing",low
+"Streetlight flickers sometimes",low
+"Small water leakage from pipe",low
+"Large pothole on the main road",medium
+"Several potholes near the market",medium
+"Garbage has not been collected for several days",medium
+"Multiple streetlights are not working",medium
+"Water leakage is spreading across the road",medium
+"Drain is blocked and water is accumulating",medium
+"Huge pothole causing accidents",high
+"Large pothole near school causing danger to students",high
+"Garbage is creating a serious health hazard",high
+"Main road is completely dark because streetlights are broken",high
+"Major water pipeline has burst on the road",high
+"Drainage water is flooding the street",high

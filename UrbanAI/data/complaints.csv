@@ -1,0 +1,37 @@
+text,category
+"Large pothole on the road near college",pothole
+"There is a huge pothole near the school",pothole
+"Road has several deep potholes",pothole
+"Many potholes are present on the main road",pothole
+"There is a dangerous pothole near the bus stop",pothole
+"The road is full of potholes",pothole
+"Garbage is overflowing from the bin",garbage
+"Large amount of garbage dumped near the market",garbage
+"Garbage has not been collected for three days",garbage
+"Trash is scattered all over the street",garbage
+"The garbage bin is completely full",garbage
+"There is waste lying on the road",garbage
+"The streetlight is not working",streetlight
+"Road light has stopped working",streetlight
+"There is no light on the street at night",streetlight
+"Several streetlights are broken",streetlight
+"The lamp near the road is not working",streetlight
+"Street is completely dark because the light is broken",streetlight
+"Water is leaking from the pipeline",water_leakage
+"There is a major water leak on the road",water_leakage
+"Water is continuously coming out of the pipe",water_leakage
+"A broken water pipe is causing leakage",water_leakage
+"Water is leaking near the building",water_leakage
+"There is a pipeline leakage on the street",water_leakage
+"The drainage system is blocked",drainage
+"Drain is overflowing near the road",drainage
+"Dirty water is coming out of the drain",drainage
+"The storm drain is blocked",drainage
+"Drainage water is overflowing",drainage
+"There is a blocked drainage pipe",drainage
+"The road surface is badly damaged",road_damage
+"Road is broken and needs repair",road_damage
+"Large cracks have appeared on the road",road_damage
+"The road is damaged because of heavy rain",road_damage
+"The main road is in very poor condition",road_damage
+"There are large cracks in the street",road_damage
